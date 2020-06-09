@@ -1,0 +1,17 @@
+AWS Cloud9 Assignment
+
+1. For this assignment I opted to use the Amazon Linux as opposed to the Ubuntu 18.04 (I am more comfortable using Ubuntu) to challenge myself. In AWS Educate, I logged into
+my classroom and then to services > Cloud 9.
+2. Then I selected to create my account and opted for the "cloud9lookingfine" for my Cloud 9 environment, then click on Clone Repository (Green Rectangle top right).
+3. On my computer, I opened a new window. In my browser, I typed www.github.com and created a new account, KimSchnack.
+4. After setting up my user name and password in github.com I selected "New Repository" and titled it Cloud9.
+5. Returning to my window for AWS-Cloud9lookingfine account I started the IDE terminal.
+6. When the terminal window opened, I entered: "sudo yum -y update"; then on the next line I entered: "sudo yum -y install git" to install github.
+7. After the completion of the two previous commands, I typed in: git --version.
+8. At this point, I created my Github username and other credentials: git config --global user.name "KimSchnack"; and, then: git config --global user.email "email address here".
+9. To create a new file: type in nano.bird.txt. A new window (bash file) opens up and I copied the txt that was given. Exit out and save the file by Ctrl X and then Y for yes.
+10. Repeat step nine for the next two files: insects.txt and reptile.txt.
+11. Back in the terminal window, type: git add --all
+12. Then type: git commit
+13. Then type: git push
+14. Once all these steps were done. I then went to my github.com account Repository Cloud9 and ensured all files were uploaded.
